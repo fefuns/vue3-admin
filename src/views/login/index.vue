@@ -6,23 +6,23 @@
       </div>
       <el-form-item>
         <span class="svg-container">
-          <el-icon>
-            <avatar />
-          </el-icon>
+          <span class="svg-container">
+            <svg-icon icon="http://res.lgdsunday.club/user.svg"></svg-icon>
+          </span>
         </span>
         <el-input placeholder="username" name="username" type="text"></el-input>
       </el-form-item>
       <el-form-item>
         <span class="svg-container">
-          <el-icon>
-            <avatar />
-          </el-icon>
+          <span class="svg-container">
+            <svg-icon icon="http://res.lgdsunday.club/user.svg"></svg-icon>
+          </span>
         </span>
         <el-input placeholder="password" name="password"></el-input>
         <span class="show-pwd">
-          <el-icon>
-            <avatar />
-          </el-icon>
+          <span class="svg-container">
+            <svg-icon icon="http://res.lgdsunday.club/user.svg"></svg-icon>
+          </span>
         </span>
       </el-form-item>
       <el-button type="primary" style="width: 100%; margin-bottom: 20px">登录</el-button>
@@ -32,7 +32,7 @@
 
 <script setup>
 // 导入的组件可以直接使用
-import { Avatar } from '@element-plus/icons'
+import SvgIcon from '@/components/SvgIcon/index.vue'
 import {} from 'vue'
 </script>
 
