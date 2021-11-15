@@ -6,17 +6,23 @@
       </div>
       <el-form-item>
         <span class="svg-container">
-          <el-icon><avatar /></el-icon>
+          <el-icon>
+            <avatar />
+          </el-icon>
         </span>
         <el-input placeholder="username" name="username" type="text"></el-input>
       </el-form-item>
       <el-form-item>
         <span class="svg-container">
-          <el-icon><avatar /></el-icon>
+          <el-icon>
+            <avatar />
+          </el-icon>
         </span>
         <el-input placeholder="password" name="password"></el-input>
         <span class="show-pwd">
-          <el-icon><avatar /></el-icon>
+          <el-icon>
+            <avatar />
+          </el-icon>
         </span>
       </el-form-item>
       <el-button type="primary" style="width: 100%; margin-bottom: 20px">登录</el-button>
